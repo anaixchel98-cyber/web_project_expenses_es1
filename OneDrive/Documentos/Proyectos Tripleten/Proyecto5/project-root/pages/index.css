@@ -1,0 +1,28 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts.css");
+
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+}
+
+@import url("../blocks/header.css");
+@import url("../blocks/cover.css");
+@import url("../blocks/intro.css");
+@import url("../blocks/photo-grid.css");
+@import url("../blocks/lead.css");
+@import url("../blocks/place.css");
+@import url("../blocks/footer.css");
